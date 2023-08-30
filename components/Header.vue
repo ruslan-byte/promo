@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header__container container">
       <div class="header__logo">
-        Logo.
+        <img src="logo.png" alt="">
       </div>
       <div class="header__links">
         <NuxtLink to="/">Обо мне</NuxtLink>
@@ -21,10 +21,10 @@
     {
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
-    &__logo {
-      font-size: 21px;
-      color: white;
+    &__logo img{
+      width: 42px;
     }
     &__links a{
       display: inline-block;

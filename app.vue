@@ -6,6 +6,10 @@
   </dib>
 </template>
 <style lang="scss">
+@use "~/assets/scss/normalize.scss" as *;
+@use "~/assets/scss/default.scss" as *;
+@use "~/assets/scss/element/variables.scss" as *;
+@use "~/assets/scss/fonts.scss" as *;
 .app {
 	min-height: 100vh;
 	display: flex;

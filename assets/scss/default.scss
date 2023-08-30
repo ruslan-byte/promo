@@ -1,0 +1,20 @@
+@use "~/assets/scss/variables" as *;
+.container
+{
+	max-width: $widescreen;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding: 0 16px;
+	box-sizing: border-box;
+}
+a, .nuxt-link
+{
+	color: $white;
+	text-decoration: none;
+	&:hover {filter: drop-shadow(0px 0px 4px $white); }
+}
+body{
+	font-family: Averta;
+}

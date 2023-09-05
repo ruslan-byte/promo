@@ -1,12 +1,12 @@
 <template>
   <header class="header">
     <div class="header__container container">
-      <div class="header__logo">
-        <img src="logo.png" alt="">
-      </div>
+      <NuxtLink to="/" class="header__logo">
+        <img src="logo.png"  alt="">
+      </NuxtLink>
       <div class="header__links">
-        <NuxtLink to="/">Обо мне</NuxtLink>
-        <NuxtLink to="/">Портфолио</NuxtLink>
+        <NuxtLink to="/">Ссылка</NuxtLink>
+        <NuxtLink to="/">Ссылка</NuxtLink>
       </div>
     </div>
   </header>
@@ -17,6 +17,7 @@
 .header {
   background: $main-bg-color;
   padding: 12px 0;
+  border-bottom: 1px solid $border-color;
     &__container
     {
       display: flex;
@@ -24,7 +25,8 @@
       align-items: center;
     }
     &__logo img{
-      width: 42px;
+      width: 80px;
+      border-radius: 4px;
     }
     &__links a{
       display: inline-block;

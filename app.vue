@@ -1,9 +1,11 @@
 <template>
-  <dib class="app">
+  <div class="app">
   	<Header class="app__header"/>
-  	<AboutMy class="app__section"/>
+  	<main class="app__main">
+  		<NuxtPage></NuxtPage>
+	</main>
   	<Footer />
-  </dib>
+  </div>
 </template>
 <style lang="scss">
 @use "~/assets/scss/normalize.scss" as *;
@@ -17,7 +19,7 @@
 	justify-content: space-between;
 	background: $sectond-bg-color;
 	&__header,
-	&__section {
+	&__main {
 		margin-bottom: 18px;
 	}
 }

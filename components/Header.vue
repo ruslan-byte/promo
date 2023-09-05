@@ -2,7 +2,7 @@
   <header class="header">
     <div class="header__container container">
       <NuxtLink to="/" class="header__logo">
-        <img src="logo.png"  alt="">
+        <img src="/logo.png"  alt="">
       </NuxtLink>
       <div class="header__links">
         <NuxtLink to="/">Ссылка</NuxtLink>

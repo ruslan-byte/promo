@@ -3,6 +3,10 @@ import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/promo/',
+    buildAssetsDir: 'assets', 
+  },
   devtools: { enabled: true },
   vite: {
     plugins: [
